@@ -231,10 +231,18 @@ const selectLevelPage = () => {
         <p class="header">select a level</p>
     </div>
     <div class="button-container">
+    <a href="#">
         <img src="images/4cards.png" onclick="openGamePage(4)" class="levels" width="350" height="200" alt="">
+    </a>
+    <a href="#">
         <img src="images/6cards.png" onclick="openGamePage(6)" class="levels" width="350" height="200" alt=""> <br>
+    </a>
+    <a href="#">
         <img src="images/8cards.png" onclick="openGamePage(8)" class="levels" width="350" height="200" alt="">
+    </a>
+    <a href="#">
         <img src="images/10cards.png" onclick="openGamePage(10)" class="levels" width="350" height="200" alt="">
+    </a>    
     </div>
     `
 }
