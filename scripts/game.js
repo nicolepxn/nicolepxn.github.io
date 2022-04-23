@@ -153,7 +153,7 @@ const attachEventListeners = (selectors, state) => {
 const openGamePage = (level) => {
     document.body.innerHTML = `
         <a href="#">
-            <img src="images/back-button.png" onClick="backLevelPage()" class="back-button" alt="lorem">
+            <img src="images/back-button.png" onClick="backLevelPage()" class="back-button" alt="">
         </a>
         <div class="game">
             <div class="controls">
@@ -198,7 +198,7 @@ const resultPage = () => {
     document.removeEventListener("click", clickCardListener)
     document.body.innerHTML = `
     <a href="index.html">
-        <img src="images/menu-button.png" class="back-button" alt="lorem">
+        <img src="images/menu-button.png" class="back-button" alt="">
     </a>
     <div class="div-header">
         <table>
@@ -211,7 +211,7 @@ const resultPage = () => {
     <div class="button-container">
         <input type="text" class="text-discord" size="50"> <br>
         <a href="index.html">
-            <img src="images/send.png" width="280" height="157" alt="lorem">
+            <img src="images/send.png" width="280" height="157" alt="">
         </a>
     </div>
     `
@@ -225,16 +225,16 @@ const backLevelPage = () => {
 const selectLevelPage = () => {
     document.body.innerHTML = `
     <a href="index.html">
-        <img src="images/back-button.png" class="back-button" alt="lorem">
+        <img src="images/back-button.png" class="back-button" alt="">
     </a>
     <div class="div-header">
         <p class="header">select a level</p>
     </div>
     <div class="button-container">
-        <img src="images/4cards.png" onclick="openGamePage(4)" class="levels" width="350" height="200" alt="lorem">
-        <img src="images/6cards.png" onclick="openGamePage(6)" class="levels" width="350" height="200" alt="lorem"> <br>
-        <img src="images/8cards.png" onclick="openGamePage(8)" class="levels" width="350" height="200" alt="lorem">
-        <img src="images/10cards.png" onclick="openGamePage(10)" class="levels" width="350" height="200" alt="lorem">
+        <img src="images/4cards.png" onclick="openGamePage(4)" class="levels" width="350" height="200" alt="">
+        <img src="images/6cards.png" onclick="openGamePage(6)" class="levels" width="350" height="200" alt=""> <br>
+        <img src="images/8cards.png" onclick="openGamePage(8)" class="levels" width="350" height="200" alt="">
+        <img src="images/10cards.png" onclick="openGamePage(10)" class="levels" width="350" height="200" alt="">
     </div>
     `
 }
